@@ -27,15 +27,17 @@ These theories guide the selection of predictors and the interpretation of resul
 
 ## 4. Repository Structure
 
-├── data/ # Cleaned dataset (.csv)
-├── notebooks/ # Analysis notebooks
-│ ├── 01_preprocessing.ipynb
-│ ├── 02_modeling.ipynb
-│ └── 03_shap_analysis.ipynb
-├── results/ # Risk group interpretation and notes
-├── theory/ # Variable-to-theory mapping
-├── poster/ # (optional) Conference poster PDF
-└── README.md # Project description (this file)
+```
+├── data/                # Cleaned dataset (.csv)
+├── notebooks/           # Analysis notebooks
+│   ├── 01_preprocessing.ipynb
+│   ├── 02_modeling.ipynb
+│   └── 03_shap_analysis.ipynb
+├── results/             # Risk group interpretation and notes
+├── theory/              # Variable-to-theory mapping
+├── poster/              # (optional) Conference poster PDF
+└── README.md            # Project description (this file)
+```
 
 ## 5. Key Findings
 
