@@ -1,47 +1,53 @@
+# Predicting Continuity in Community Health Programs Using CHIS 2023
 
-#  Predicting Community Health Program Continuity Using Nursing Informatics and Social Capital (CHIS 2023)
-
-##  Project Purpose
 This project aims to predict sustained participation (≥2 times) in community health programs using CHIS 2023 data. A nursing informatics approach was used to combine access-to-care indicators and social capital theory for predictive modeling and policy analysis.
 
-##  Conceptual Framework
-- **Donabedian Model**: Structure → Process → Outcome  
-- **Social Capital Theory**: Trust, reciprocity, and informal support
+## 1. Project Objective
 
-These frameworks guide variable selection and interpretation.
+- Predict whether individuals will continue participating in community health programs (≥2 times)
+- Identify key structural and psychosocial predictors using public health datasets
+- Support theory-informed community nursing practice through data-driven analysis
 
-##  Methodology
-| Item | Description |
-|------|-------------|
-| Dataset | California Health Interview Survey (CHIS) 2023 |
-| Outcome | Participation continuity (1 = ≥2 times, 0 = ≤1) |
-| Predictors | Access score, trust indicators, social support, age, gender, income |
-| Tools | Python, pandas, scikit-learn, SHAP |
-| Analysis | Logistic regression + SHAP explanation |
+## 2. Theoretical Framework
 
-##  Repository Structure
+- Donabedian Model: Structure → Process → Outcome
+- Social Capital Theory: Trust, reciprocity, informal support
 
- data/ → Cleaned dataset  
- notebooks/ → Analysis notebooks (`01_preprocessing`, `02_modeling`, `03_shap_analysis`)  
- theory/ → Variable-theory mapping (`donabedian_mapping.md`, `social_capital_map.md`)  
- results/ → SHAP interpretation notes (`risk_group_notes.md`)  
- poster/ → Poster PDF for academic presentation
+These theories guide the selection of predictors and the interpretation of results.
 
-##  Key Findings
-- Trust and access were the most influential predictors.
-- Low-trust and low-access groups were identified as high-risk for program dropout.
-- SHAP visualizations guided intervention suggestions.
+## 3. Data and Methods
 
-##  Implications
-This project demonstrates a theory-based, data-informed modeling approach in community nursing. Results can support policy design for improving engagement in health programs.
+| Item       | Description                                                  |
+|------------|--------------------------------------------------------------|
+| Dataset    | California Health Interview Survey (CHIS) 2023              |
+| Outcome    | Program continuity (1 = ≥2 times, 0 = ≤1)                    |
+| Predictors | Access score, trust indicators, social support, demographics |
+| Tools      | Python, pandas, scikit-learn, SHAP                          |
+| Method     | Logistic regression and SHAP interpretation                 |
 
-## ‍ About the Researcher
-Min Jin Oh, MSN, RN  
-PhD Applicant in Nursing Informatics and Community Health  
- [LinkedIn] |  minjin.research@gmail.com
+## 4. Repository Structure
 
+├── data/ # Cleaned dataset (.csv)
+├── notebooks/ # Analysis notebooks
+│ ├── 01_preprocessing.ipynb
+│ ├── 02_modeling.ipynb
+│ └── 03_shap_analysis.ipynb
+├── results/ # Risk group interpretation and notes
+├── theory/ # Variable-to-theory mapping
+├── poster/ # (optional) Conference poster PDF
+└── README.md # Project description (this file)
 
-## About the Researcher
+## 5. Key Findings
+
+- Trust and access were among the strongest predictors of continued participation.
+- Low-trust and low-access groups were identified as dropout risk groups.
+- SHAP analysis enabled model interpretation and group-level insights.
+
+## 6. Implications
+
+This project demonstrates how public health datasets and nursing informatics can be combined to inform community-based care models. Results can support targeted interventions in underserved populations.
+
+## 7. Author
 
 Min Jin Oh, RN  
 PhD applicant in Nursing Informatics and Community Health  
