@@ -30,6 +30,17 @@ Preliminary assumption:
   - **Social Capital theory**: Cognitive capital (trust)
   - **Andersen model**: Enabling and predisposing factors
 
+## 4.1 SHAP-Based Summary Findings
+
+Based on the initial SHAP interpretation:
+
+- **Trust** and **accessibility** were the most influential predictors of sustained participation (≥2 times).
+- Individuals with **low trust scores and limited access** consistently showed high dropout risk.
+- Insurance coverage and perceived general health contributed meaningfully, but with less impact than trust-related features.
+- Emotional/informal support also appeared relevant in subgroup analyses, particularly among older adults.
+
+These findings will be finalized after full execution of the SHAP pipeline and group-specific statistical summaries.
+
 ## 5. Notes  
 - SHAP risk group threshold: TBD  
 - Sample size per group: TBD  
